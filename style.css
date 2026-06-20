@@ -1,0 +1,39 @@
+html {
+  min-height: 100%;
+  background-color: black;
+
+  background-image: url("IMG/calm.png"), url("IMG/piss.png"), url("IMG/piss.png"), url("IMG/calm.png");
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
+  background-position: left 0 top, left 150px top, right 150px top, right 0 top;
+  background-size: 150px auto, 150px auto, 150px auto, 150px auto;
+}
+
+body {
+  color: white;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: transparent;
+}
+
+a{
+	color: green;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: blue;
+}
+
+h1 {
+	color: red;
+}
+
+h2{
+	color: yellow;
+}
